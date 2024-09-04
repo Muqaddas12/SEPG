@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+select{
+    margin-bottom: 10px;
+    height: 4vh;
+    font-size:3vh;
+    border-radius: .5vw;
+    
+}
+input{
+    height: 4vh;
+    width: 18vw;
+    border-radius: .5vw;
+}
+.header{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(27, 65, 46);
+    height: 10vh;
+    font-size: 3vw;
+}
+
+.details{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5%;
+}
+#form{
+    border: 1px solid black;
+    padding: 2vw;
+    border-radius: .5vw;
+    background-color: rgb(124, 189, 186);
+}
+.exam-details{
+    display: flex;
+  
+    height: 10vh;
+    align-content: center;
+    font-size: x-large;
+}
+.exam-details-label{
+    font-weight: bold;
+    margin-left: 1vw;
+    height: 3vh;
+}
+.exam-question-details{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight: bold;
+   
+
+  
+}
+.section-title{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+
+}
+.form-button{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-handler-button{
+    display: flex;
+    justify-content: center;
+align-items: center;
+font-weight: bold;
+font-size: 3vh;
+    height: 5vh;
+    width: 20vw;
+    border-radius: .5vw;
+
+}

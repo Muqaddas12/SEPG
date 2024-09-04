@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=locals.title%></title>
+    <link rel="stylesheet" href="../stylesheets/Login.css">
+</head>
+<body>
+    <div class="Root">
+        <div class="Header">
+           <form action="/" method="get"> <button id="title">Smart Exam Paper Generator</button></form>
+        </div>
+        <div class="Content">
+        <div class="Img"></div>
+        <div class="Auth">
+            <div class="form-title">Login</div>
+            <form class="login-form" action="/Authenticate" method="post">
+                 <label class="input-label" for="Username">Email/Username</label><br>
+            <input id="Username" type="text" name="Username" class="input-field" placeholder="Enter Email or Username" required><br>
+            <label class="input-label" for="pass">Password</label><br>
+            <input type="text" name="Password" class="input-field" placeholder="Enter the password" required><br>
+            <button type="submit" class="submit-button" >Login</button>
+
+            </form>
+            <form action="/Forgot" method="get">
+                <div class="options"  ><button id="Reset" type="submit">Having Trouble In SignIng?</button></div>
+            </form>
+            
+           
+
+        </div>
+        </div>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

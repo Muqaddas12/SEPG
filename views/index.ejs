@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/index.css">
+  </head>
+  <body>
+    <div class="Root">
+             <div class="header">Smart Exam paper Generator</div>
+
+      <div class="details">
+       
+        <form id="form" action="/Generate" method="post">
+ <div class="exam-details">
+          <!-- exam type start -->
+          <label class="exam-details-label" for="SelectExamType">Select Exam Type:</label>
+          <select name="SelectExamType">
+            <option value="none">Select Exam Type</option>
+            <option value="First-Sessional-Exam">First-Sessional-Exam</option>
+            <option value="Second-Sessionla-Exam">Second-Sessionla-Exam</option>
+            <option value="Third-Sessional-Exam">Third-Sessional-Exam</option>
+            <option value="Main-Exam">Main-Exam</option>
+          </select>
+        <!-- exam type end -->
+
+
+        <!-- Units Selection Start -->
+         <label class="exam-details-label" for="Units">Select Units:</label>
+         <select name="Units">
+          <option value="none">Select Units</option>
+          <option value="Unit-1">Unit-1</option>
+          <option value="Unit-2">Unit-2</option>
+          <option value="Unit-3">Unit-3</option>
+          <option value="Unit-4">Unit-4</option>
+          <option value="Unit-5">Unit-5</option>
+          <option value="Unit-6">Unit-6</option>
+          <option value="Unit-7">Unit-7</option>
+          <option value="Unit-8">Unit-8</option>
+          <option value="Unit-9">Unit-9</option>
+          <option value="All-Units">All-Units</option>
+
+         </select>
+         <!-- Unit Selection end -->
+
+         <label class="exam-details-label" for="SelectCourse">Select Course:</label>
+         <select name="SelectCourse">
+          <option value="Select-Course">Select-Course</option>
+          <option value="MCA">MCA</option>
+          <option value="BCA">BCA</option>
+          <option value="B-Tech">B-Tech</option>
+         </select>
+
+        
+        </div>
+
+        <div class="exam-question-details">
+           <div class="section-a">
+            <div class="section-title">Section - A</div>
+            <label class="exam-question-label" for="MCQ">MCQ</label><br>
+            <select name="MCQ">
+              <option value="none">Select number of questions</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select><br>
+            <label class="exam-question-label" for="TrueAndFalse">TrueAndFalse</label><br>
+            <select name="TrueAndFalse">
+              <option value="none">Select number of questions</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select><br>
+            <label class="exam-question-label" for="FITB">Fill In The Blanks</label><br>
+            <select name="FITB">
+              <option value="none">Select number of questions</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select><br>
+          </div>
+          <!-- Section a end -->
+
+
+          <div class="section-b">
+            <div class="section-title">
+                Section-B
+            </div>
+            <label class="exam-question-label" for="ShortQuestions">Short Questions:</label><br>
+            <select name="ShortQuestions">
+                <option value="none">Select Number Of Questions</option>
+              <option value="3">3</option>
+            </select><br>
+            <label class="exam-question-label" for="SectionBDifficulty">Difficulty Level:</label><br>
+            <select name="SectionBDifficulty">
+                <option value="none">Select The Difficulty Level</option>
+                <option value="Easy">Easy</option>
+                <option value="Normal">Normal</option>
+                <option value="Hard">Hard</option>
+                <option value="Random">Random</option>
+            </select><br>
+
+            <label for="SectionBUnits">Enter Unit For This Section:</label><br>
+            <input type="text" name="SectionBUnits" placeholder="Enter Units For This Section">
+
+
+          </div>
+          <!-- section b end -->
+           <div class="section-c">
+            <div class="section-title">Section-C</div>
+<label class="exam-question-label" for="LongQuestions">Long Questions</label><br>
+<select name="LongQuestions">
+    <option value="none">Select Number Of Questions</option>
+       <option value="3">3</option>
+</select><br>
+<label class="exam-question-label" for="SectionCDifficulty">Difficulty Level:</label><br>
+  <select name="SectionCDifficulty">
+                <option value="none">Select The Difficulty Level</option>
+                <option value="Easy">Easy</option>
+                <option value="Normal">Normal</option>
+                <option value="Hard">Hard</option>
+                <option value="Random">Random</option>
+            </select><br>
+             <label for="SectionCUnits">Enter Unit For This Section:</label><br>
+            <input type="text" name="SectionCUnits" placeholder="Enter Units For This Section">
+           </div>
+           
+        </div>
+        <div class="form-button">
+                    <button class="form-handler-button" type="submit" >Generate</button>
+ <button class="form-handler-button" type="reset">Reset</button>
+                 </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

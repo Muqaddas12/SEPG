@@ -1,0 +1,552 @@
+[
+    {
+        "questionId": 1,
+        "questionText": "PHP stands for",
+        "options": [
+            { "optionId": "A.", "optionText": "Hypertext Preprocessor" },
+            { "optionId": "B.", "optionText": "Pretext Hypertext Preprocessor" },
+            { "optionId": "C.", "optionText": "Personal Home Processor" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 2,
+        "questionText": "Who is known as the father of PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "Drek Kolkevi" },
+            { "optionId": "B.", "optionText": "List Barely" },
+            { "optionId": "C.", "optionText": "Rasmus Lerdrof" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 3,
+        "questionText": "Variable name in PHP starts with",
+        "options": [
+            { "optionId": "A.", "optionText": "! (Exclamation)" },
+            { "optionId": "B.", "optionText": "$ (Dollar)" },
+            { "optionId": "C.", "optionText": "& (Ampersand)" },
+            { "optionId": "D.", "optionText": "# (Hash)" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 4,
+        "questionText": "Which of the following is the default file extension of PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": ".php" },
+            { "optionId": "B.", "optionText": ".hphp" },
+            { "optionId": "C.", "optionText": ".xml" },
+            { "optionId": "D.", "optionText": ".html" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 5,
+        "questionText": "Which of the following is not a variable scope in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "Extern" },
+            { "optionId": "B.", "optionText": "Local" },
+            { "optionId": "C.", "optionText": "Static" },
+            { "optionId": "D.", "optionText": "Global" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 6,
+        "questionText": "Which of the following is correct to add a comment in php?",
+        "options": [
+            { "optionId": "A.", "optionText": "& …… &" },
+            { "optionId": "B.", "optionText": "// ……" },
+            { "optionId": "C.", "optionText": "/* …… */" },
+            { "optionId": "D.", "optionText": "Both (b) and (c)" }
+        ],
+        "correctAnswer": "D."
+    },
+    {
+        "questionId": 7,
+        "questionText": "Which of the following is used to display the output in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "echo" },
+            { "optionId": "B.", "optionText": "write" },
+            { "optionId": "C.", "optionText": "print" },
+            { "optionId": "D.", "optionText": "Both (a) and (c)" }
+        ],
+        "correctAnswer": "D."
+    },
+    {
+        "questionId": 8,
+        "questionText": "Which of the following is the use of strlen() function in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "The strlen() function returns the type of string" },
+            { "optionId": "B.", "optionText": "The strlen() function returns the length of string" },
+            { "optionId": "C.", "optionText": "The strlen() function returns the value of string" },
+            { "optionId": "D.", "optionText": "The strlen() function returns both value and type of string" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 9,
+        "questionText": "Which of the following is used for concatenation in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "+ (plus)" },
+            { "optionId": "B.", "optionText": "* (Asterisk)" },
+            { "optionId": "C.", "optionText": ". (dot)" },
+            { "optionId": "D.", "optionText": "append()" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 10,
+        "questionText": "Which of the following starts with __ (double underscore) in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "Inbuilt constants" },
+            { "optionId": "B.", "optionText": "User-defined constants" },
+            { "optionId": "C.", "optionText": "Magic constants" },
+            { "optionId": "D.", "optionText": "Default constants" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 11,
+        "questionText": "Which of the following is the use of strpos() function in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "The strpos() function is used to search for the spaces in a string" },
+            { "optionId": "B.", "optionText": "The strpos() function is used to search for a number in a string" },
+            { "optionId": "C.", "optionText": "The strpos() function is used to search for a character/text in a string" },
+            { "optionId": "D.", "optionText": "The strpos() function is used to search for a capitalize character in a string" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 12,
+        "questionText": "What does PEAR stands for?",
+        "options": [
+            { "optionId": "A.", "optionText": "PHP extension and application repository" },
+            { "optionId": "B.", "optionText": "PHP enhancement and application reduce" },
+            { "optionId": "C.", "optionText": "PHP event and application repository" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 13,
+        "questionText": "Which of the following is the correct way to create a function in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "Create myFunction()" },
+            { "optionId": "B.", "optionText": "New_function myFunction()" },
+            { "optionId": "C.", "optionText": "function myFunction()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 14,
+        "questionText": "Which of the following PHP function is used to generate unique id?",
+        "options": [
+            { "optionId": "A.", "optionText": "id()" },
+            { "optionId": "B.", "optionText": "mdid()" },
+            { "optionId": "C.", "optionText": "uniqueid()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "D."
+    },
+    {
+        "questionId": 15,
+        "questionText": "Which of the following is the correct way of defining a variable in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "$variable name = value;" },
+            { "optionId": "B.", "optionText": "$variable_name = value;" },
+            { "optionId": "C.", "optionText": "$variable_name = value" },
+            { "optionId": "D.", "optionText": "$variable name as value;" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 16,
+        "questionText": "Which of the following is the correct use of the strcmp() function in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "The strcmp() function is used to compare the strings excluding case" },
+            { "optionId": "B.", "optionText": "The strcmp() function is used to compare the uppercase strings" },
+            { "optionId": "C.", "optionText": "The strcmp() function is used to compare the lowercase strings" },
+            { "optionId": "D.", "optionText": "The strcmp() function is used to compare the strings including case" }
+        ],
+        "correctAnswer": "D."
+    },
+    {
+        "questionId": 17,
+        "questionText": "What is the use of fopen() function in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "The fopen() function is used to open folders in PHP" },
+            { "optionId": "B.", "optionText": "The fopen() function is used to open remote server" },
+            { "optionId": "C.", "optionText": "The fopen() function is used to open files in PHP" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 18,
+        "questionText": "What is the use of isset() function in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "The isset() function is used to check whether variable is set or not" },
+            { "optionId": "B.", "optionText": "The isset() function is used to check whether the variable is free or not" },
+            { "optionId": "C.", "optionText": "The isset() function is used to check whether the variable is string or not" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 19,
+        "questionText": "What is the use of sprintf() function in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "The sprintf() function is used to print the output of program" },
+            { "optionId": "B.", "optionText": "The sprintf() function is used to send output to variable" },
+            { "optionId": "C.", "optionText": "Both of the above" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 20,
+        "questionText": "Which of the following is the correct way to open the file 'sample.txt' as readable?",
+        "options": [
+            { "optionId": "A.", "optionText": "fopen('sample.txt', 'r');" },
+            { "optionId": "B.", "optionText": "fopen('sample.txt', 'r+');" },
+            { "optionId": "C.", "optionText": "fopen('sample.txt', 'read');" },
+            { "optionId": "D.", "optionText": "fopen('sample.txt');" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 21,
+        "questionText": "Which of the following function displays the information about PHP and its configuration?",
+        "options": [
+            { "optionId": "A.", "optionText": "php_info()" },
+            { "optionId": "B.", "optionText": "phpinfo()" },
+            { "optionId": "C.", "optionText": "info()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 22,
+        "questionText": "Which of the following function is used to find files in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "glob()" },
+            { "optionId": "B.", "optionText": "fold()" },
+            { "optionId": "C.", "optionText": "file()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 23,
+        "questionText": "Which of the following function is used to set cookie in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "createcookie()" },
+            { "optionId": "B.", "optionText": "makecookie()" },
+            { "optionId": "C.", "optionText": "setcookie()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 24,
+        "questionText": "Which of the following function is used to get the ASCII value of a character in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "val()" },
+            { "optionId": "B.", "optionText": "asc()" },
+            { "optionId": "C.", "optionText": "ascii()" },
+            { "optionId": "D.", "optionText": "chr()" }
+        ],
+        "correctAnswer": "D."
+    },
+    {
+        "questionId": 25,
+        "questionText": "Which of the following function is used to unset a variable in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "delete()" },
+            { "optionId": "B.", "optionText": "unset()" },
+            { "optionId": "C.", "optionText": "unlink()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 26,
+        "questionText": "Which of the following function is used to sort an array in descending order?",
+        "options": [
+            { "optionId": "A.", "optionText": "sort()" },
+            { "optionId": "B.", "optionText": "asrot()" },
+            { "optionId": "C.", "optionText": "dsort()" },
+            { "optionId": "D.", "optionText": "rsort()" }
+        ],
+        "correctAnswer": "D."
+    },
+    {
+        "questionId": 27,
+        "questionText": "Which of the following is/are the code editors in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "Notepad++" },
+            { "optionId": "B.", "optionText": "Notepad" },
+            { "optionId": "C.", "optionText": "Adobe Dreamweaver" },
+            { "optionId": "D.", "optionText": "All of the above" }
+        ],
+        "correctAnswer": "D."
+    },
+    {
+        "questionId": 28,
+        "questionText": "Which of the following is used to end a statement in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": ". (dot)" },
+            { "optionId": "B.", "optionText": "; (semicolon)" },
+            { "optionId": "C.", "optionText": "! (exclamation)" },
+            { "optionId": "D.", "optionText": "/ (slash)" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 29,
+        "questionText": "Which of the following function in PHP can be used to test the type of any variable?",
+        "options": [
+            { "optionId": "A.", "optionText": "showtype()" },
+            { "optionId": "B.", "optionText": "gettype()" },
+            { "optionId": "C.", "optionText": "settype()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 30,
+        "questionText": "String values in PHP must be enclosed within",
+        "options": [
+            { "optionId": "A.", "optionText": "Double Quotes" },
+            { "optionId": "B.", "optionText": "Single Quotes" },
+            { "optionId": "C.", "optionText": "Both (a) and (b)" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 31,
+        "questionText": "Which of the following variable name is invalid?",
+        "options": [
+            { "optionId": "A.", "optionText": "$newVar" },
+            { "optionId": "B.", "optionText": "$new_Var" },
+            { "optionId": "C.", "optionText": "$new-var" },
+            { "optionId": "D.", "optionText": "All of the above" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 32,
+        "questionText": "Which of the following is the correct way to create an array in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "$season = array['summer', 'winter', 'spring', 'autumn'];" },
+            { "optionId": "B.", "optionText": "$season = array('summer', 'winter', 'spring', 'autumn');" },
+            { "optionId": "C.", "optionText": "$season = 'summer', 'winter', 'spring', 'autumn';" },
+            { "optionId": "D.", "optionText": "All of the above" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 33,
+        "questionText": "Which of the following is a built-in function in PHP that adds a value to the end of an array?",
+        "options": [
+            { "optionId": "A.", "optionText": "array_push()" },
+            { "optionId": "B.", "optionText": "inend_array()" },
+            { "optionId": "C.", "optionText": "into_array()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 34,
+        "questionText": "Which of the following function in PHP returns a text in title case from a variable?",
+        "options": [
+            { "optionId": "A.", "optionText": "toUpper($var)" },
+            { "optionId": "B.", "optionText": "ucwords($var)" },
+            { "optionId": "C.", "optionText": "ucword($var)" },
+            { "optionId": "D.", "optionText": "All of the above" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 35,
+        "questionText": "Which of the following is the correct way to print 'Hello World' in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "'Hello World';" },
+            { "optionId": "B.", "optionText": "write('Hello World');" },
+            { "optionId": "C.", "optionText": "echo 'Hello World';" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 36,
+        "questionText": "Which of the following function is used to compress a string in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "compress()" },
+            { "optionId": "B.", "optionText": "zip_compress()" },
+            { "optionId": "C.", "optionText": "gzcompress()" },
+            { "optionId": "D.", "optionText": "zip()" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 37,
+        "questionText": "What does SPL stands for in PHP?",
+        "options": [
+            { "optionId": "A.", "optionText": "Standard PHP Library" },
+            { "optionId": "B.", "optionText": "Simple PHP Library" },
+            { "optionId": "C.", "optionText": "Simple PHP List" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 38,
+        "questionText": "Which of the following function converts a string to all uppercase?",
+        "options": [
+            { "optionId": "A.", "optionText": "upper()" },
+            { "optionId": "B.", "optionText": "uppercase()" },
+            { "optionId": "C.", "optionText": "struppercase()" },
+            { "optionId": "D.", "optionText": "strtoupper()" }
+        ],
+        "correctAnswer": "D."
+    },
+    {
+        "questionId": 39,
+        "questionText": "The function in PHP that can be used to concatenate array elements to form a single delimited string is",
+        "options": [
+            { "optionId": "A.", "optionText": "implode()" },
+            { "optionId": "B.", "optionText": "concat()" },
+            { "optionId": "C.", "optionText": "explode()" },
+            { "optionId": "D.", "optionText": "concatenate()" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 40,
+        "questionText": "Which PHP function determines the last access time of a file?",
+        "options": [
+            { "optionId": "A.", "optionText": "filetime()" },
+            { "optionId": "B.", "optionText": "fileatime()" },
+            { "optionId": "C.", "optionText": "filectime()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 41,
+        "questionText": "Which PHP function is capable to read specific number of characters from a file?",
+        "options": [
+            { "optionId": "A.", "optionText": "filegets()" },
+            { "optionId": "B.", "optionText": "fget()" },
+            { "optionId": "C.", "optionText": "fgets()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "C."
+    },
+    {
+        "questionId": 42,
+        "questionText": "Which PHP function is used to find the position of the last occurrence of a substring inside another string?",
+        "options": [
+            { "optionId": "A.", "optionText": "strops()" },
+            { "optionId": "B.", "optionText": "strrpos()" },
+            { "optionId": "C.", "optionText": "strtr()" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 43,
+        "questionText": "What will be the output of the following program?\n<?php  \necho \"Welcome\" . \"to\" . \"the\" . \"javaTpoint.com\";  \n?>",
+        "options": [
+            { "optionId": "A.", "optionText": "Welcome to the javaTpoint.com" },
+            { "optionId": "B.", "optionText": "Welcome, to, the, javaTpoint.com" },
+            { "optionId": "C.", "optionText": "com" },
+            { "optionId": "D.", "optionText": "Error" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 44,
+        "questionText": "What will be the output of the following program?\n<?php  \necho \"Welcome\" , \"to\" , \"the\" , \"javaTpoint.com\";  \n?>",
+        "options": [
+            { "optionId": "A.", "optionText": "Welcome to the javaTpoint.com" },
+            { "optionId": "B.", "optionText": "Welcome, to, the, javaTpoint.com" },
+            { "optionId": "C.", "optionText": "com" },
+            { "optionId": "D.", "optionText": "Error" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 45,
+        "questionText": "What will be the output of the following program?\n<?php  \n$var1 = \"Hello\";  \n$var2 = \"World\";  \necho $var1, $var2;  \n?>",
+        "options": [
+            { "optionId": "A.", "optionText": "HelloWorld" },
+            { "optionId": "B.", "optionText": "Hello, World" },
+            { "optionId": "C.", "optionText": "Hello World" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 46,
+        "questionText": "What will be the output of the following program?\n<?php  \n$var1 = \"Hello\";  \n$var2 = \"World\";  \necho \"$var1$var2\";  \n?>",
+        "options": [
+            { "optionId": "A.", "optionText": "HelloWorld" },
+            { "optionId": "B.", "optionText": "\"$var1$var2\"" },
+            { "optionId": "C.", "optionText": "Hello World" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 47,
+        "questionText": "What will be the output of the following program?\n<?php  \n$a;  \nif ($a)  \n{  \necho \"hi\";  \n}  \nelse  \n{  \necho \"How are you\";  \n}  \n?>",
+        "options": [
+            { "optionId": "A.", "optionText": "Hi How are you" },
+            { "optionId": "B.", "optionText": "How are you" },
+            { "optionId": "C.", "optionText": "Hi" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 48,
+        "questionText": "What will be the output of the following program?\n<?php  \n$a = NULL;  \nif ($a)  \n{  \necho \"hi\";  \n}  \nelse  \n{  \necho \"How are you\";  \n}  \n?>",
+        "options": [
+            { "optionId": "A.", "optionText": "Hi How are you" },
+            { "optionId": "B.", "optionText": "How are you" },
+            { "optionId": "C.", "optionText": "Hi" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "B."
+    },
+    {
+        "questionId": 49,
+        "questionText": "What will be the output of the following program?\n<?php  \n$a = 10;  \n$b = 5;  \n$z = $a + $b;  \necho $z;  \n?>",
+        "options": [
+            { "optionId": "A.", "optionText": "15" },
+            { "optionId": "B.", "optionText": "105" },
+            { "optionId": "C.", "optionText": "10+5" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "A."
+    },
+    {
+        "questionId": 50,
+        "questionText": "What will be the output of the following program?\n<?php  \n$a = 10;  \n$b = 5;  \n$z = $a - $b;  \necho $z;  \n?>",
+        "options": [
+            { "optionId": "A.", "optionText": "15" },
+            { "optionId": "B.", "optionText": "5" },
+            { "optionId": "C.", "optionText": "105" },
+            { "optionId": "D.", "optionText": "None of the above" }
+        ],
+        "correctAnswer": "B."
+    }
+]
